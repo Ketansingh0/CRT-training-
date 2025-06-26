@@ -10,7 +10,7 @@ public class swap2num {
         // int temp = a;
         // a = b;
         // b = temp;
-
+        
         // System.out.println("After swapping: a = " + a + ", b = " + b);
 
 
