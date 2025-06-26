@@ -1,0 +1,65 @@
+# =================
+# Java & Build Tools
+# =================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# =================
+# IDEs
+# =================
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+tmp/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbi/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# =================
+# Others
+# =================
+
+# Mac system files
+.DS_Store
+
+# Environment files
+.env
+
+# Backup files
+*.bak
+*.swp
