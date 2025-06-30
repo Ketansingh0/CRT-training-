@@ -14,11 +14,15 @@ public class maxSubarray {
     int currentSum = arr[0];
 
     for (int i = 1; i < n; i++) {
-      currentSum = Math.max(arr[i], currentSum + arr[i]);
-      maxSum = Math.max(maxSum, currentSum);
+      currentSum = max(arr[i], currentSum + arr[i]);
+      maxSum = max(maxSum, currentSum);
     }
 
     System.out.println("Maximum subarray sum is: " + maxSum);
     sc.close();
+  }
+
+  static int max(int a, int b) {
+    return (a > b ? a : b);
   }
 }
