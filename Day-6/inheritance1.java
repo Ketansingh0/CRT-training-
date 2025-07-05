@@ -1,7 +1,6 @@
 
 public class inheritance1 {
   public static void main(String[] args) {
-    Three th = new Three();
   }
 }
 

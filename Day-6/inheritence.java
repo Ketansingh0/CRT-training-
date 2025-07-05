@@ -1,7 +1,7 @@
 
 public class inheritence {
   public static void main(String[] args) {
-    Demo3 d3 = new Demo3();
+    // Demo3 d3 = new Demo3();
   }
 }
 
