@@ -11,5 +11,6 @@ public class candies {
     } else {
       System.out.println("Invalid Input");
     }
+    sc.close();
   }
 }

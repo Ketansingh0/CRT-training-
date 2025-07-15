@@ -23,5 +23,6 @@ public class caesarCipher {
     }
 
     System.out.println(res);
+    sc.close();
   }
 }

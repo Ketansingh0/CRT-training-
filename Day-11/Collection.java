@@ -13,5 +13,6 @@ public class Collection {
       lst.add(num);
     }
     System.out.println(lst);
+    sc.close();
   }
 }

@@ -8,12 +8,14 @@ public class Remove {
 
     while (true) {
       int num = sc.nextInt();
-      if (num == -1) break;
+      if (num == -1)
+        break;
       lst.add(num);
     }
 
     System.out.println("Original List: " + lst);
     System.out.println("After removing even numbers: " + removeEven(lst));
+    sc.close();
   }
 
   public static ArrayList<Integer> removeEven(ArrayList<Integer> list) {

@@ -6,6 +6,7 @@ public class maxFreq {
     String str = sc.nextLine();
 
     countMaxFreq(str);
+    sc.close();
   }
 
   public static void countMaxFreq(String str) {

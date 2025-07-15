@@ -7,5 +7,7 @@ public class Wrapper {
     Integer num2 = 5;
     Integer result = num1 - num2;
     System.out.println(Integer.max(num1, num2));
+    System.out.println(result);
+    System.out.println(a - b);
   }
 }

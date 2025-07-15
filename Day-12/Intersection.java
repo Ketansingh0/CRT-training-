@@ -18,6 +18,7 @@ public class Intersection {
     System.out.println(findIntersection(arr1, arr2));
     int[] result = findIntersection(arr1, arr2);
     System.out.println(Arrays.toString(result));
+    sc.close();
   }
 
   public static int[] findIntersection(int[] arr1, int[] arr2) {

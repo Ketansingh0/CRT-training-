@@ -42,5 +42,6 @@ public class UniqueCharacters {
 
     String result = findUniqueChars(s1, s2);
     System.out.println(result);
+    sc.close();
   }
 }

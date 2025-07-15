@@ -17,5 +17,6 @@ public class washingMachine {
     } else {
       System.out.println("Invalid input");
     }
+    sc.close();
   }
 }

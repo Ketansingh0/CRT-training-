@@ -21,7 +21,7 @@ public class genericExample {
     n2.next = n3;
     n3.next = n4;
     n4.next = null;
-    print(head);
+    // print(head);
   }
 
   static <T> void print(listNode<T> head) {

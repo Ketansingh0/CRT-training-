@@ -14,6 +14,7 @@ public class RemoveDuplicate {
       System.out.print(num + ",");
     }
     System.out.println("]");
+    sc.close();
   }
 
   public static int[] RemoveDuplicateNum(int[] arr) {

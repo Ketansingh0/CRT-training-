@@ -15,6 +15,7 @@ public class zeroSorting {
 
     System.out.println("Original List: " + lst);
     System.out.println("After removing zero and adding it in the last" + SortZero(lst));
+    sc.close();
   }
 
   private static ArrayList<Integer> SortZero(ArrayList<Integer> lst) {

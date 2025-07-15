@@ -5,6 +5,7 @@ public class freqChar {
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
     countChar(str);
+    sc.close();
   }
 
   public static void countChar(String str) {
