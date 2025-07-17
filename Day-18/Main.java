@@ -1,4 +1,3 @@
-// Node class
 class Node {
   int data;
   Node next;
@@ -9,7 +8,6 @@ class Node {
   }
 }
 
-// Queue class using Linked List
 class QueueImplement {
   Node front, rear;
 
