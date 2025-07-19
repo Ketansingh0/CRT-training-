@@ -10,13 +10,13 @@ class listNode<T> {
 
 public class genericExample {
   public static void main(String[] args) {
-    listNode head;
+    // listNode head;
     listNode<Integer> n1 = new listNode<>(10);
     listNode<Integer> n2 = new listNode<>(15);
     listNode<String> n3 = new listNode<>("Ketan");
     listNode<Character> n4 = new listNode<>('a');
 
-    head = n1;
+    // head = n1;
     n1.next = n2;
     n2.next = n3;
     n3.next = n4;
@@ -28,7 +28,7 @@ public class genericExample {
     listNode<T> curr = head;
     while (curr != null) {
       System.out.print(curr.data + " -> ");
-      curr = curr.next;
+      // curr = curr.next;
     }
     System.out.println("null");
   }
